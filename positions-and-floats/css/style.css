@@ -1,0 +1,173 @@
+body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans", sans-serif;
+}
+
+main {
+    margin: 200px 0 0 218px;
+}
+
+.page {
+    position: absolute;
+
+    width: 450px;
+    height: 676px;
+    padding: 35px;
+
+    border: 2px solid #000000;
+}
+
+.page_bg-color-grey-light {
+    background-color: #ebebeb;
+}
+
+.page_bg-color-grey {
+    background-color: #cccccc;
+}
+
+.page_bg-color-grey-dark {
+    background-color: #acacac;
+}
+
+.page_position-second {
+    margin: 20px 0 0 20px;
+}
+
+.page_position-third {
+    margin: 40px 0 0 40px;
+}
+
+.page__sticker {
+    float: right;
+
+    width: 107px;
+    height: 31px;
+
+    border: 2px solid #000000;
+    border-radius: 0 10px 10px 0;
+}
+
+.page__sticker_position-first {
+    margin-right: -120px;
+}
+
+.page__sticker_position-second {
+    margin-right: -90px;
+}
+
+.page__sticker_position-third {
+    margin-right: -60px;
+}
+
+.page__sticker_bg-color-orange {
+    background-color: rgba(246, 142, 86, 1);
+}
+
+.page__sticker_bg-color-green {
+    background-color: rgba(57, 181, 74, 1);
+}
+
+.page__sticker_bg-color-blue {
+    background-color: rgba(0, 174, 239, 1);
+}
+
+.page > section > h1 {
+    margin: 0 0 14px 0;
+}
+
+.page > section > article {
+    font-size: 12px;
+}
+
+article p:first-child {
+    margin-bottom: -12px;
+}
+
+article p:first-child img {
+    float: left;
+
+    margin: 0 21px 20px 0;
+}
+
+article p:last-child img {
+    float: right;
+
+    margin-left: 5px;
+}
+
+section > footer > p {
+    margin: 0;
+
+    text-align: center;
+
+    font-size: 9px;
+}
+
+section > section {
+    clear: both;
+}
+
+section > section > h2 {
+    margin: 20px 0;
+
+    font-size: 18px;
+}
+
+section > section > img {
+    margin: 0 10px 15px 0;
+}
+
+.links {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    width: 88px;
+    height: 68px;
+
+    border: 1px solid #000000;
+    background-color: #fbaf5d;
+}
+
+.links > h2 {
+    margin: 10px 0;
+
+    text-align: center;
+
+    font-size: 16px;
+}
+
+.links > ul {
+    margin: 0 5px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.links > ul > li {
+    float: right;
+}
+
+section > section {
+    overflow: hidden;
+}
+
+section > ul > li:nth-child(2n+1) {
+    float: right;
+
+    margin-right: 0;
+}
+
+section > ul > li {
+    margin-bottom: 14px;
+
+    list-style: none;
+}
+
+section > ul {
+    margin: 10px 0;
+    padding: 0;
+}

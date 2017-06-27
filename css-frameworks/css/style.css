@@ -1,0 +1,335 @@
+@import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lato Bold";
+}
+
+p {
+    font-family: "Source Sans Pro Regular";
+}
+
+.navbar-nav {
+    font-family: "Source Sans Pro Bold";
+}
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-offset {
+    margin: 35px 0;
+}
+
+.carousel-indicators {
+    position: absolute;
+    z-index: 15;
+    bottom: -10px;
+    left: 50%;
+    left: 47%;
+
+    width: 7%;
+    margin-left: 0;
+    padding: 4px;
+
+    list-style: none;
+
+    text-align: center;
+
+    border: 1px solid #00bc9c;
+    border-bottom: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+
+    border-radius: 10px;
+    background-color: #2f4052;
+
+    font-size: 30px;
+    line-height: 50px;
+}
+.carousel-indicators li {
+    width: none;
+
+    background-color: #506a85;
+}
+
+.introduction {
+    margin-top: 130px;
+    margin-bottom: 80px;
+
+    color: #506a85;
+}
+.introduction > h2 {
+    margin-bottom: 25px;
+
+    letter-spacing: 0.3px;
+
+    font-size: 44px;
+}
+
+.introduction > p {
+    letter-spacing: 0.22px;
+
+    color: #73879c;
+
+    font-size: 21px;
+    line-height: 34px;
+}
+
+.decoration {
+    margin-top: -10px;
+
+    color: #00bc9c;
+
+    font-size: 60px;
+}
+
+.advantage {
+    margin-bottom: 130px;
+
+    color: #506a85;
+}
+
+
+.advantage > h3 {
+    margin: 0 0 25px 0;
+
+    font-size: 26px;
+}
+
+.advantage > p {
+    letter-spacing: 0.16px;
+
+    color: #73879c;
+
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.bg-color-grey {
+    background-color: #f2f5f7;
+}
+
+figcaption {
+    margin: -17px 0 80px 0;
+    padding: 30px 0 32px 0;
+
+    background-color: #ffffff;
+}
+
+figcaption > h3 {
+    color: #506a85;
+
+    font-size: 20px;
+}
+
+figcaption > h3:hover {
+    color: #00bc9c;
+}
+
+figcaption > p {
+    color: #73879c;
+}
+
+.bg-color-dark-blue {
+    background-color: #2f4052;
+}
+
+.bg-color-dark-grey {
+    border: none;
+    background-color: #283645;
+}
+
+.footer-data {
+    margin: 75px 0 80px 0;;
+}
+
+.footer-data h4 {
+    text-align: left;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-data > p {
+    margin: 15px 0 16px 0;
+
+    color: #a3b1bf;
+
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer-data > a {
+    word-spacing: 4px;
+
+    color: #ffffff;
+
+    font-family: "Source Sans Pro Bold";
+}
+
+.footer-data a:hover {
+    text-decoration: none;
+
+    color: #00bc9c;
+}
+
+.footer-data > a::after {
+    content: " \f061";
+
+    font-family: "FontAwesome";
+}
+
+.footer-data > img {
+    display: block;
+
+    margin: 20px 0 0 0;
+}
+
+.footer-data > ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer-data > ul li {
+    width: 125px;
+    margin-bottom: 5px;
+}
+
+.footer-data > ul li:nth-child(even) {
+    margin-right: 5px;
+}
+
+.links {
+    display: block;
+
+    margin-right: 20px;
+
+    text-align: left;
+
+    color: #a3b1bf;
+
+    font-family: "Source Sans Pro Regular";
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.links i {
+    margin-right: 10px;
+}
+
+.links a {
+    display: block;
+    clear: both;
+
+    text-decoration: none;
+
+    color: #a3b1bf;
+}
+
+.links address {
+    margin-bottom: 0;
+}
+
+.modal-form {
+    padding: 10px;
+
+    background-color: #ffffff;
+}
+
+.bottom-ffset {
+    margin-bottom: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    padding-right: 7px;
+
+    transition: .5s ease;
+
+    opacity: 0;
+    background-color: #00bc9c;
+}
+
+.overlay > div {
+    font-family: 'Lato Bold';
+    
+    text-align: center;
+
+    margin-top: 20%;
+
+    color: #ffffff;
+
+    font-size: 25px;
+}
+
+.image-container {
+    position: relative;
+
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlayed-image {
+    display: block;
+
+    width: 100%;
+}
+
+.bottom-nav {
+    padding-top: 34px;
+}
+
+.bottom-nav > nav {
+    height: 49px;
+}
+
+.bottom-nav > nav a::before {
+    margin: 0 5px;
+
+    content: "·";
+}
+
+.bottom-nav > nav a:first-child::before {
+    content: "";
+}
+
+.bottom-nav a {
+    text-align: right;
+    text-decoration: none;
+
+    color: #707e8c;
+
+    font-family: "Source Sans Pro Regular";
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bottom-nav a:hover {
+    color: #00bc9c;
+}

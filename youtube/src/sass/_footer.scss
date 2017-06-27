@@ -1,0 +1,36 @@
+body {
+    > footer {
+        height: 50px;
+
+        background-color: rgba(35, 35, 35, 1);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+   background-color: #167ac6;
+}
+
+.pagination {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+
+    list-style: none;
+
+    text-align: center;
+    li {
+        width: 36px;
+        height: 36px;
+        margin: 5px 10px;
+        border: 2px solid #808080;
+        color: #ffffff;
+        
+
+        line-height: 40px;
+    }
+}

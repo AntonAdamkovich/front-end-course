@@ -1,0 +1,17 @@
+{
+  "name": "layout-workshop",
+  "version": "1.0.0",
+  "description": "layout and sass",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "author": "Anton Adamkovich",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

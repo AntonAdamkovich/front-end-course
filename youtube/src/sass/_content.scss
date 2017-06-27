@@ -1,0 +1,133 @@
+main {
+    margin: 0 3%;
+}
+
+.content {
+    ul {
+        display: grid;
+
+        height: 82vh;
+        padding: 0;
+
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fill, 244px); /*minmax(320px, 320px)*/
+
+        li {
+            width: 244px;
+
+            list-style-type: none;
+
+            img {
+                width: 240px;
+            }
+        }
+    }
+}
+
+.item {
+    min-height: 310px;
+
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+
+    &:hover {
+        border: 2px solid #000000;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    p {
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    span {
+        margin-right: 5px;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    &-views::before {
+        margin-right: 5px;
+
+        content: "\f06e";
+
+        font-family: "FontAwesome";
+    }
+
+    &-likes::before {
+        margin-right: 5px;
+
+        content: "\f087";
+
+        font-family: "FontAwesome";
+    }
+
+    &-date::before {
+        margin-right: 5px;
+        
+        content: "\f250";
+
+        font-family: "FontAwesome";
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin: 0 5px;
+        font-size: 14px;
+
+        border-top: 1px solid rgba(0,0,0,0.2);
+
+        font-family: "Hind";
+    }
+
+    figure {
+        margin: 0;
+
+        figcaption {
+            text-align: center;
+            p {
+                overflow: hidden;
+
+                max-height: 50px;
+
+                text-align: center;
+
+                font-family: "Hind";
+            }
+            span {
+                font-family: "Hind";
+                &::before {
+                    margin-right: 5px;
+
+                    content: "\f007";
+
+                    font-family: "FontAwesome";
+                }
+            }
+            h1 {
+                overflow: hidden;
+
+                max-height: 30px;
+                margin: 10px 0;
+
+                text-align: center;
+
+                font-family: "Montserrat-bold";
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+                a {
+                    text-decoration: none;
+
+                    color: #167ac6;
+
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

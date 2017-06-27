@@ -1,0 +1,102 @@
+.main-header {
+    width: $page-width;
+    height: $header-height;
+
+    background-color: $header-background-color;
+
+    &__wrapper {
+        margin: 0 $header-outer-margin;
+
+        div {
+            display: table-cell;
+
+            width: 1290px;
+            height: $header-content-height;
+
+            text-align: center;
+            vertical-align: middle;
+
+            a {
+                margin-top: 10px;
+
+                text-decoration: none;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+
+                color: $header-content-color;
+
+                font-family: "Hind";
+                font-size: 21px;
+                font-weight: 600;
+            }
+        }
+
+        button {
+            float: left;
+
+            width: $header-button-width;
+            height: $header-button-height;
+
+            border-style: solid;
+            border-top: none;
+            border-bottom: none;
+            background-color: transparent;
+
+            &:hover {
+                cursor: pointer;
+                border: none;
+                background-color: $header-content-color;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover i {
+                color: $header-background-color;
+            }
+
+            i {
+                color: $header-content-color;
+
+                font-size: 1.5em;
+            }
+        }
+
+        nav {
+            float: right;
+
+            list-style: none;
+
+            li {
+                float: left;
+
+                text-align: center;
+
+                border-left: 1px solid $header-content-color;
+
+                &:last-child {
+                    border-right: 1px solid $header-content-color;
+                }
+
+                a {
+                    display: table-cell;
+
+                    width: 52px;
+                    height: $header-content-height;
+
+                    vertical-align: middle;
+                    text-decoration: none;
+
+                    color: $header-content-color;
+
+                    font-size: 16px;
+
+                    &:hover {
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
